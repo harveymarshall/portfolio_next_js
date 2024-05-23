@@ -29,9 +29,10 @@ export default function RootLayout({
         <div className={"absolute left-[859px] top-[176px] w-[900px] h-[982px] overflow-visible"}>
           <Ellipse2Icon className={"w-[100%] h-[100%]"} />
         </div>
-        <div className="absolute left-[489.2708px] top-[123.5381px] w-[494.1668px] h-[637.0844px] bg-[#8f1491] origin-top-left" style={{ transform: 'matrix(0.6272, 0.7789, -0.7789, 0.6272, 0, 0)'}}></div>
+        <div className="absolute left-[489.2708px] top-[123.5381px] w-[494.1668px] h-[637.0844px] bg-[#8f1491] origin-top-left"
+             style={{ transform: 'matrix(0.6272, 0.7789, -0.7789, 0.6272, 0, 0)'}}></div>
         <div className="absolute left-[710.8736px] top-[-54px] w-[782.1264px] h-[285.2603px] overflow-visible" 
-              style={{ filter: 'drop-shadow(0px 4px 4px #00000040)' }}>
+             style={{ filter: 'drop-shadow(0px 4px 4px #00000040)' }}>
           <Vector1Icon className={"w-[100%] h-[100%]"} />
         </div>
       </div>
