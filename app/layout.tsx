@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-50 text-gray-950 relative`}>
-      <div className={"absolute z-10 w-[100%] h-[474px] column flex-start bg-[#56fbb6] overflow-hidden blur-[92.69999694824219px]"}>
+      <div className={"absolute z-10 top-[-1rem] w-[200%] h-[474px] column flex-start bg-[#56fbb6] overflow-hidden blur-[3000px]"}>
         <div className={"absolute z-20 left-[-81px] top-[-180px] w-[669px] h-[417px] overflow-visible"}>
           <Ellipse1Icon className={"w-[100%] h-[100%]"} />
         </div>
