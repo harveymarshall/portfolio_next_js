@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
-import About from "@/components/about";
-import { memo, SVGProps } from 'react';
+import Intro from "@/components/intro";
+import About from "@/components/about"
 import { Ellipse1Icon } from '@/components/mesh-gradient/Ellipse1Icon';
 import { Ellipse2Icon } from '@/components/mesh-gradient/Ellipse2Icon';
 import { Vector1Icon } from "@/components/mesh-gradient/Vector1Icon";
@@ -38,6 +38,7 @@ export default function RootLayout({
         </div>
       </div>
         <Header />
+        <Intro />
         <About />
         {children}
       </body>
