@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-50 text-gray-950 relative`}>
+      <body className={`${inter.className} bg-[#F5F5F5] text-gray-950 relative`}>
         <div className={"absolute z-10 top-[-3rem] w-[100%] h-[300px] column flex-start bg-[#2d3fe7] overflow-hidden blur-mask"}>
         </div>
         <ActiveSectionContextProvider>

@@ -17,7 +17,7 @@ export default function Intro() {
       <section
         ref={ref}
         id="home"
-        className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]"
+        className="mb-[75px] max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]"
       >
           <motion.div
             className="w-full flex items-center justify-center flex-col rounded-[25px]"
@@ -83,7 +83,7 @@ export default function Intro() {
             </div>
           </motion.div>
 
-          <motion.div className={`${jb.className} w-[550px] h-[109px] text-[#171717] text-2xl leading-[1.5] font-medium text-center flex items-center justify-center flex-col mt-[40px]`} initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1}} transition={{
+          <motion.div className={`${jb.className} w-[550px] h-[109px] text-[#171717] text-2xl leading-[1.5] font-medium text-center flex items-center justify-center flex-col mt-[40px] mb-[100px]`} initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1}} transition={{
           type: "tween",
           duration: 1.4
           }}>
